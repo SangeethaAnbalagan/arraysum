@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum of array elements</title>
+
+    <script>
+        function arrsum(arr) {
+            let sum=0;
+
+            for(let i=0;i<arr.length;i++){
+                sum+=arr[i];
+                
+            }
+            return sum;
+            
+        }
+        const numbers=[10,20,30,40,50];
+            const sum= arrsum(numbers);
+            console.log("array sum="+sum);
+
+    </script>
+</head>
+<body>
+    <center>
+        <h1>Sum of the array numbers</h1>
+        <hr>
+
+    </center>
+</body>
+</html>
